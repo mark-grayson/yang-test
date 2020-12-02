@@ -99,7 +99,7 @@ module o-ran-fan {
           Optional node included when the NETCONF Server has determined
           the fan vendor code.";
       }
-      leaf fan-speed {
+      leeaf fan-speed {
         when "../present-and-operating = 'true'";
         type percent;
         description
