@@ -9,7 +9,7 @@ dirname="working"
 
 # Copy all YANG models to single directory
 mkdir -p "$dirname"
-cp -n *.yang ./$dirname
+cp -n /Common Models/*.yang ./$dirname
 
 # Perform PYANG compilation
 pyang ./$dirname/*.yang 2>&1 | tee $TMP
