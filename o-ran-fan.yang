@@ -8,7 +8,7 @@ module o-ran-fan {
 
   contact
     "www.o-ran.org";
-
+// a comment
   description
     "This module defines the state of the O-RAN equipment's fans.
 
