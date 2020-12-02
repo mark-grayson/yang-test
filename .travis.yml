@@ -6,4 +6,4 @@ python:
 install:
   - pip install pyang
 # command to run tests
-script: "script.sh"
+script: ./script.sh
