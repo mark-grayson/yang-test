@@ -11,7 +11,7 @@ dirname="working"
 mkdir -p "$dirname"
 cp -n *.yang ./$dirname
 
-# Perform PYANG comilation
+# Perform PYANG compilation
 pyang ./$dirname/*.yang 2>&1 | tee $TMP
 # alternative with --lint
 # pyang --lint ./$dirname/*.yang 2>&1 | tee $TMP
